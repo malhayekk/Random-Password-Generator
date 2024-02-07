@@ -1,0 +1,37 @@
+html {
+    background: #1F2937;
+    color: white;
+    padding-left: 30px;
+}
+
+.greenText {
+    color: #4ADF86;
+}
+
+h2 {
+    color: lightgray;
+}
+
+button {
+    border-radius: 6px;
+    background: #10B981;
+
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    padding: 9px 15px;
+
+}
+
+section {
+    display: flex;
+    gap: 20px;
+}
+
+.password {
+    background: #273549;
+    flex: 2;
+    justify-content: space-between;
+    text-align: center;
+    color: #55F991;
+    max-width: 200px;
+}
